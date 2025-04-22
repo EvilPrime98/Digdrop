@@ -5,7 +5,7 @@ declare val_opt_f opt_c
 declare domain server iterations ips
 
 uso() {
-	echo "testdig [ -f fichero ] [ -c iteraciones ] url ..."
+	echo "digdrop [ -f fichero ] [ -c iteraciones ] url ..."
 }
 
 while getopts :f:c: option; do
